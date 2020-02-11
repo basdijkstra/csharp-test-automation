@@ -58,7 +58,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Answers\BasicApiTestsAnswers.cs" />
+    <Compile Include="Answers\DeserializationApiTestsAnswers.cs" />
+    <Compile Include="DataEntities\LocationResponse.cs" />
+    <Compile Include="DataEntities\Place.cs" />
+    <Compile Include="DataEntities\Post.cs" />
     <Compile Include="Examples\ApiTestExamples.cs" />
+    <Compile Include="Examples\DataDrivenApiTests.cs" />
+    <Compile Include="Examples\DeserializationExampleTests.cs" />
+    <Compile Include="Exercises\BasicApiTests.cs" />
+    <Compile Include="Exercises\DeserializationApiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -33,9 +33,7 @@ namespace SeleniumWebDriver.Examples
         public void StartBrowser_PerformGoogleSearch_AssertOnResultPage_StopBrowser_LessVerbose()
         {
             new GoogleHomePage(driver)
-                .Load()
-                .EnterSearchTerm("Thomsons Online Benefits")
-                .ClickSearchButton();
+                .LoadAndSearchFor("Thomsons Online Benefits");                
             
             Assert.IsTrue(new GoogleResultsPage(driver).ResultStatsAreDisplayed());
         }

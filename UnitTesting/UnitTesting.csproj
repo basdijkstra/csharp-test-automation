@@ -56,6 +56,16 @@
     <Compile Include="Examples\UnitTestExamples.cs" />
     <Compile Include="Exercises\DataDrivenLoanTests.cs" />
     <Compile Include="Exercises\LoanTests.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Car.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Employee.cs" />
+    <Compile Include="ObjectOrientedPrinciples\EmployeeTest.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Order.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Person.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Point.cs" />
+    <Compile Include="ObjectOrientedPrinciples\PointTest.cs" />
+    <Compile Include="ObjectOrientedPrinciples\OnlineOrder.cs" />
+    <Compile Include="ObjectOrientedPrinciples\StoreOrder.cs" />
+    <Compile Include="ObjectOrientedPrinciples\Vehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestObjects\Calculator.cs" />
     <Compile Include="TestObjects\Loan.cs" />

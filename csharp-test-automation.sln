@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTesting", "ApiTesting\ApiTesting.csproj", "{483E03E5-3BD5-444D-AC01-094201A85322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebDriver", "SeleniumWebDriver\SeleniumWebDriver.csproj", "{268CC45D-BAEF-459E-8C5C-218674D45A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{483E03E5-3BD5-444D-AC01-094201A85322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{483E03E5-3BD5-444D-AC01-094201A85322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{483E03E5-3BD5-444D-AC01-094201A85322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268CC45D-BAEF-459E-8C5C-218674D45A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268CC45D-BAEF-459E-8C5C-218674D45A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268CC45D-BAEF-459E-8C5C-218674D45A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268CC45D-BAEF-459E-8C5C-218674D45A75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

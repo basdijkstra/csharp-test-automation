@@ -92,6 +92,24 @@
     <Compile Include="Examples\Helpers\SeleniumHelpers.cs" />
     <Compile Include="Examples\Pages\GoogleResultsPage.cs" />
     <Compile Include="Examples\Pages\GoogleHomePage.cs" />
+    <Compile Include="Exercises\BasePages\AccountsOverviewPage.cs" />
+    <Compile Include="Exercises\BasePages\BasePage.cs" />
+    <Compile Include="Exercises\BasePages\LoginPage.cs" />
+    <Compile Include="Exercises\BasePages\RequestLoanPage.cs" />
+    <Compile Include="Exercises\BasePages\RequestLoanResultPage.cs" />
+    <Compile Include="Exercises\ExercisesIteration8.cs" />
+    <Compile Include="Exercises\ExercisesIteration7.cs" />
+    <Compile Include="Exercises\ExercisesIteration6.cs" />
+    <Compile Include="Exercises\ExercisesIteration5.cs" />
+    <Compile Include="Exercises\ExercisesIteration4.cs" />
+    <Compile Include="Exercises\ExercisesIteration3.cs" />
+    <Compile Include="Exercises\ExercisesIteration2.cs" />
+    <Compile Include="Exercises\ExercisesIteration1.cs" />
+    <Compile Include="Exercises\Helpers\SeleniumHelpers.cs" />
+    <Compile Include="Exercises\Pages\AccountsOverviewPage.cs" />
+    <Compile Include="Exercises\Pages\LoginPage.cs" />
+    <Compile Include="Exercises\Pages\RequestLoanPage.cs" />
+    <Compile Include="Exercises\Pages\RequestLoanResultPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

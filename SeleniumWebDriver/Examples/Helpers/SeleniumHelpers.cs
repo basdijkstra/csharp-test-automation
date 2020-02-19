@@ -58,6 +58,32 @@ namespace SeleniumWebDriver.Examples.Helpers
             }
         }
 
+        public void ClickWithoutUsingExpectedConditions(By by)
+        {
+            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
+
+            IWebElement element = wait.Until<IWebElement>(condition => {
+                try
+                {
+                    IWebElement tempElement = _driver.FindElement(by);
+                    return tempElement.Enabled ? tempElement : null;
+                }
+                catch
+                {
+                    return null;
+                }
+            });
+
+            try
+            {
+                element.Click();
+            }
+            catch (NullReferenceException)
+            {
+                Assert.Fail($"Exception occurred in SeleniumHelper.Click(): element located by {by.ToString()} could not be located within 10 seconds.");
+            }
+        }
+
         // Returns whether an element is visible
         // Takes into account a predefined timeout
         // Logs to HTML if the element is not present and visible after this timeout
